@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
+    background-color: blue;
+    color: white;
+    font-size: xxx-large;
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+.description{
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(71, 107, 41);
+    font-weight: bolder;
+}
+.input-area{
+    width: 90%;
+    margin: auto;
+}
+label{
+    font-size: x-large;
+    font-weight: bold;
+    color: blueviolet;
+}
+input{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0px 20px 0px;
+    font-size: 1.3rem;
+    border-radius: 0.3ch;
+}
+
+button{
+    font-size: x-large;
+    padding: 5px 17px 5px 17px;
+    border-radius: 2ch;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(18, 124, 62);
+    margin-bottom: 50px;
+}
+
+button:hover{
+    background-color: red;
+}
+
+.change-table{
+    width: 80%;
+}
+.change-table caption{
+    font-size: xx-large;
+    color: rgb(209, 21, 52);
+    margin-bottom: 20px;
+}
+table,th,td {
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table{
+    width: 100%;
+    margin: auto;
+}
+th{
+    height: 50px;
+    width: 10vw;
+    font-weight: bold;
+}
+td{
+    width: 8vw;
+}
+
+.bg-yello{
+    background-color: yellow;
+    color: red;
+    font-weight: bolder;
+}
+.bg-green{
+    background-color: green;
+}
+
+#error-message{
+    color: red;
+}

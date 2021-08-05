@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cash Register</title>
+</head>
+<body>
+
+    <h1 class="heading">Cash Register Manager</h1>
+
+    <div class="container">
+        <p class="description">Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
+
+        <div class="input-area">
+            <label for="bill-amount"> Bill Amount :-</label><br/>
+            <input type="text" placeholder="Enter Your Bill Amount" id="bill-amount" /><br />
+            <button id="next-button">Next</button>
+            <div id="cash-section">
+                <label for="cash-given">Cash Given :-</label><br/>
+                <input type="number" placeholder="Enter Amount.." id="cash-given" />
+                <br />
+                
+                <button id="check-button">Check</button>
+            </div>
+            
+            <p id="error-message"></p>
+        </div>
+    </div>
+
+    <table class="change-table">
+        <caption>Return Change :<span id="return-Amount"></span></caption>
+        <tr>
+            <th class="bg-green">No Of Notes</th>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>        
+
+        </tr>
+        <tr>
+            <th class="bg-green">Notes</th>
+            <td class="bg-yello">2000</td>
+            <td class="bg-yello">500</td>
+            <td class="bg-yello">100</td>
+            <td class="bg-yello">20</td>
+            <td class="bg-yello">10</td>
+            <td class="bg-yello">5</td>
+            <td class="bg-yello">1</td>
+        </tr>
+    </table>
+    
+    
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
